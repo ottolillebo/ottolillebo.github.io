@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Otto Sevaldson Lillebø — samfunnsøkonom og forsker ved NIFU.">
-    <meta name="theme-color" content="#f7f7f4">
+    <meta name="theme-color" content="#fbfaf7">
     <meta property="og:title" content="Otto Sevaldson Lillebø">
     <meta property="og:description" content="Forskning på utdanning, arbeid og helse.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ottolillebo.github.io/">
+    <meta property="og:image" content="https://ottolillebo.github.io/assets/otto-lillebo.jpg">
     <link rel="canonical" href="https://ottolillebo.github.io/">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="styles.css">
@@ -17,112 +18,125 @@
   <body>
     <a class="skip-link" href="#main">Hopp til innhold</a>
 
-    <div class="page">
-      <header class="site-header">
-        <a class="wordmark" href="#top">Otto S. Lillebø</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="wordmark" href="#top">Otto Lillebø</a>
         <nav class="site-nav" aria-label="Hovedmeny">
-          <a href="#profil" data-nb="Profil" data-en="Profile">Profil</a>
+          <a href="#om" data-nb="Om" data-en="About">Om</a>
           <a href="#forskning" data-nb="Forskning" data-en="Research">Forskning</a>
           <a href="#kode" data-nb="Kode" data-en="Code">Kode</a>
+          <a href="#kontakt" data-nb="Kontakt" data-en="Contact">Kontakt</a>
         </nav>
         <div class="language-switch" aria-label="Velg språk">
           <button type="button" data-lang-button="nb" aria-pressed="true">NO</button>
+          <span aria-hidden="true">/</span>
           <button type="button" data-lang-button="en" aria-pressed="false">EN</button>
         </div>
-      </header>
+      </div>
+    </header>
 
-      <main id="main">
-        <section class="hero" id="top" aria-labelledby="hero-title">
-          <p class="overline" data-nb="Samfunnsøkonom og forsker" data-en="Economist and researcher">Samfunnsøkonom og forsker</p>
-          <h1 id="hero-title">Otto Sevaldson Lillebø</h1>
-          <p class="hero-intro" data-nb="Jeg forsker på utdanning, arbeid og helse ved hjelp av mikrodata og mikroøkonometriske metoder." data-en="I study education, work and health using microdata and microeconometric methods.">
+    <main id="main">
+      <section class="profile" id="top" aria-labelledby="page-title">
+        <img class="portrait" src="assets/otto-lillebo.jpg" alt="Portrett av Otto Sevaldson Lillebø" width="160" height="190">
+        <div class="profile-content">
+          <h1 id="page-title">Otto Sevaldson Lillebø</h1>
+          <p class="position">
+            <span data-nb="Forsker 2 og stedfortredende forskningsleder" data-en="Senior researcher and deputy research director">Forsker 2 og stedfortredende forskningsleder</span><br>
+            <a href="https://www.nifu.no/ansatte/otto-sevaldson-lillebo/">NIFU — Nordisk institutt for studier av innovasjon, forskning og utdanning</a>
+          </p>
+          <p class="profile-summary" data-nb="Jeg forsker på utdanning, arbeid og helse ved hjelp av mikrodata og mikroøkonometriske metoder." data-en="I study education, work and health using microdata and microeconometric methods.">
             Jeg forsker på utdanning, arbeid og helse ved hjelp av mikrodata og mikroøkonometriske metoder.
           </p>
-          <ul class="primary-links" aria-label="Eksterne profiler og kontakt">
-            <li><a href="https://www.nifu.no/ansatte/otto-sevaldson-lillebo/">NIFU</a></li>
+          <ul class="profile-links" aria-label="Profiler og kontakt">
+            <li><a href="mailto:otto.lillebo@nifu.no" data-nb="E-post" data-en="Email">E-post</a></li>
             <li><a href="https://nva.sikt.no/research-profile/630048">NVA</a></li>
             <li><a href="https://github.com/ottolillebo">GitHub</a></li>
-            <li><a href="mailto:otto.lillebo@nifu.no" data-nb="E-post" data-en="Email">E-post</a></li>
           </ul>
-        </section>
+        </div>
+      </section>
 
-        <section class="section" id="profil" aria-labelledby="profile-title">
-          <h2 id="profile-title" data-nb="Profil" data-en="Profile">Profil</h2>
-          <div class="section-body profile-copy">
-            <p data-nb="Jeg er forsker 2 og stedfortredende forskningsleder ved NIFU. Arbeidet mitt ligger i skjæringspunktet mellom utdanningsøkonomi, arbeidsmarkedsøkonomi og helseøkonomi." data-en="I am a senior researcher and deputy research director at NIFU. My work sits at the intersection of the economics of education, labour economics and health economics.">
-              Jeg er forsker 2 og stedfortredende forskningsleder ved NIFU. Arbeidet mitt ligger i skjæringspunktet mellom utdanningsøkonomi, arbeidsmarkedsøkonomi og helseøkonomi.
-            </p>
-            <p data-nb="Jeg bruker mikro- og paneldata til å undersøke hvordan politikk, institusjoner og livshendelser påvirker utdanning, arbeid og helse." data-en="I use microdata and panel data to examine how policy, institutions and life events shape education, work and health.">
-              Jeg bruker mikro- og paneldata til å undersøke hvordan politikk, institusjoner og livshendelser påvirker utdanning, arbeid og helse.
-            </p>
-            <p class="fields" data-nb="Utdanningsøkonomi · Arbeidsmarkedsøkonomi · Helseøkonomi · Mikroøkonometri" data-en="Economics of education · Labour economics · Health economics · Microeconometrics">
-              Utdanningsøkonomi · Arbeidsmarkedsøkonomi · Helseøkonomi · Mikroøkonometri
-            </p>
-            <p class="current-work">
-              <span data-nb="Pågående prosjekt" data-en="Current project">Pågående prosjekt</span>
-              <a href="https://www.nifu.no/prosjekter/piaac-ferdigheter-for-fremtiden/">PIAAC: Ferdigheter for fremtiden</a>
-            </p>
-          </div>
-        </section>
-
-        <section class="section" id="forskning" aria-labelledby="research-title">
-          <h2 id="research-title" data-nb="Utvalgt forskning" data-en="Selected research">Utvalgt forskning</h2>
-          <div class="section-body publication-list">
-            <article class="publication">
-              <div>
-                <h3><a href="https://nva.sikt.no/registration/019c32ce7e87-f4fffe24-f22c-4fb7-9037-e7ab4f7f2dbf">Effects of compressed work schedules on sickness absence</a></h3>
-                <p>Social Science &amp; Medicine</p>
-                <p class="authors">Elisabeth Fevang, Andreas Fidjeland, Karen Evelyn Hauge &amp; Otto Sevaldson Lillebø</p>
-              </div>
-              <span class="year">2025</span>
-            </article>
-            <article class="publication">
-              <div>
-                <h3><a href="https://nva.sikt.no/registration/0198cc441917-48c14097-5dfb-4918-977d-520077424f7a">Not a Flying Start after All? A Comment</a></h3>
-                <p>Journal of Political Economy</p>
-                <p class="authors">Otto Sevaldson Lillebø, Simen Markussen, Knut Røed &amp; Yuejun Zhao</p>
-              </div>
-              <span class="year">2024</span>
-            </article>
-            <article class="publication">
-              <div>
-                <h3><a href="https://doi.org/10.18261/tfs.65.2.2">Pandemi og gjennomføring av videregående opplæring</a></h3>
-                <p>Tidsskrift for samfunnsforskning</p>
-                <p class="authors">Otto Sevaldson Lillebø, Asgeir Skålholt &amp; Marianne Takvam Kindt</p>
-              </div>
-              <span class="year">2024</span>
-            </article>
-            <article class="publication">
-              <div>
-                <h3><a href="https://nva.sikt.no/registration/0198cc479f74-00eaf8d4-35b4-4e09-8665-8fa091bfe7e1">Health effects of retirement: evidence from survey and register data</a></h3>
-                <p>Journal of Population Economics</p>
-                <p class="authors">Maja Weemes Grøtting &amp; Otto Sevaldson Lillebø</p>
-              </div>
-              <span class="year">2019</span>
-            </article>
-            <a class="more-link" href="https://nva.sikt.no/research-profile/630048" data-nb="Alle arbeider i NVA" data-en="All works in NVA">Alle arbeider i NVA</a>
-          </div>
-        </section>
-
-        <section class="section" id="kode" aria-labelledby="code-title">
-          <h2 id="code-title" data-nb="Kode" data-en="Code">Kode</h2>
-          <div class="section-body">
-            <p class="code-intro" data-nb="Offentlige repoer hentes automatisk fra GitHub." data-en="Public repositories are fetched automatically from GitHub.">
-              Offentlige repoer hentes automatisk fra GitHub.
-            </p>
-            <div class="repo-grid" id="repo-grid" aria-live="polite">
-              <div class="repo-loading" data-nb="Henter repoer …" data-en="Loading repositories …">Henter repoer …</div>
+      <section class="section" id="om" aria-labelledby="about-title">
+        <h2 id="about-title" data-nb="Om" data-en="About">Om</h2>
+        <div class="section-content about-copy">
+          <p data-nb="Arbeidet mitt ligger i skjæringspunktet mellom utdanningsøkonomi, arbeidsmarkedsøkonomi og helseøkonomi. Jeg bruker mikro- og paneldata til å undersøke hvordan politikk, institusjoner og livshendelser påvirker utdanning, arbeid og helse." data-en="My work sits at the intersection of the economics of education, labour economics and health economics. I use microdata and panel data to examine how policy, institutions and life events shape education, work and health.">
+            Arbeidet mitt ligger i skjæringspunktet mellom utdanningsøkonomi, arbeidsmarkedsøkonomi og helseøkonomi. Jeg bruker mikro- og paneldata til å undersøke hvordan politikk, institusjoner og livshendelser påvirker utdanning, arbeid og helse.
+          </p>
+          <dl class="details">
+            <div>
+              <dt data-nb="Fagområder" data-en="Fields">Fagområder</dt>
+              <dd data-nb="Utdanningsøkonomi, arbeidsmarkedsøkonomi, helseøkonomi og mikroøkonometri" data-en="Economics of education, labour economics, health economics and microeconometrics">Utdanningsøkonomi, arbeidsmarkedsøkonomi, helseøkonomi og mikroøkonometri</dd>
             </div>
-            <a class="more-link github-profile-link" href="https://github.com/ottolillebo" data-nb="GitHub-profil" data-en="GitHub profile">GitHub-profil</a>
-          </div>
-        </section>
-      </main>
+            <div>
+              <dt data-nb="Pågående prosjekt" data-en="Current project">Pågående prosjekt</dt>
+              <dd><a href="https://www.nifu.no/prosjekter/piaac-ferdigheter-for-fremtiden/">PIAAC: Ferdigheter for fremtiden</a></dd>
+            </div>
+          </dl>
+        </div>
+      </section>
 
-      <footer class="site-footer" id="kontakt">
+      <section class="section" id="forskning" aria-labelledby="research-title">
+        <h2 id="research-title" data-nb="Utvalgt forskning" data-en="Selected research">Utvalgt forskning</h2>
+        <div class="section-content publication-list">
+          <article class="publication">
+            <div>
+              <h3><a href="https://nva.sikt.no/registration/019c32ce7e87-f4fffe24-f22c-4fb7-9037-e7ab4f7f2dbf">Effects of compressed work schedules on sickness absence</a></h3>
+              <p><em>Social Science &amp; Medicine</em>, 2025.</p>
+              <p class="authors" data-nb="Med Elisabeth Fevang, Andreas Fidjeland og Karen Evelyn Hauge." data-en="With Elisabeth Fevang, Andreas Fidjeland and Karen Evelyn Hauge.">Med Elisabeth Fevang, Andreas Fidjeland og Karen Evelyn Hauge.</p>
+            </div>
+            <span class="publication-year">2025</span>
+          </article>
+          <article class="publication">
+            <div>
+              <h3><a href="https://nva.sikt.no/registration/0198cc441917-48c14097-5dfb-4918-977d-520077424f7a">Not a Flying Start after All? A Comment</a></h3>
+              <p><em>Journal of Political Economy</em>, 2024.</p>
+              <p class="authors" data-nb="Med Simen Markussen, Knut Røed og Yuejun Zhao." data-en="With Simen Markussen, Knut Røed and Yuejun Zhao.">Med Simen Markussen, Knut Røed og Yuejun Zhao.</p>
+            </div>
+            <span class="publication-year">2024</span>
+          </article>
+          <article class="publication">
+            <div>
+              <h3><a href="https://doi.org/10.18261/tfs.65.2.2">Pandemi og gjennomføring av videregående opplæring</a></h3>
+              <p><em>Tidsskrift for samfunnsforskning</em>, 2024.</p>
+              <p class="authors" data-nb="Med Asgeir Skålholt og Marianne Takvam Kindt." data-en="With Asgeir Skålholt and Marianne Takvam Kindt.">Med Asgeir Skålholt og Marianne Takvam Kindt.</p>
+            </div>
+            <span class="publication-year">2024</span>
+          </article>
+          <article class="publication">
+            <div>
+              <h3><a href="https://nva.sikt.no/registration/0198cc479f74-00eaf8d4-35b4-4e09-8665-8fa091bfe7e1">Health effects of retirement: evidence from survey and register data</a></h3>
+              <p><em>Journal of Population Economics</em>, 2019.</p>
+              <p class="authors" data-nb="Med Maja Weemes Grøtting." data-en="With Maja Weemes Grøtting.">Med Maja Weemes Grøtting.</p>
+            </div>
+            <span class="publication-year">2019</span>
+          </article>
+          <a class="more-link" href="https://nva.sikt.no/research-profile/630048" data-nb="Se alle arbeider i NVA →" data-en="View all works in NVA →">Se alle arbeider i NVA →</a>
+        </div>
+      </section>
+
+      <section class="section" id="kode" aria-labelledby="code-title">
+        <h2 id="code-title" data-nb="Kode og ressurser" data-en="Code and resources">Kode og ressurser</h2>
+        <div class="section-content">
+          <p class="section-intro" data-nb="Offentlige repoer hentes automatisk fra GitHub." data-en="Public repositories are fetched automatically from GitHub.">
+            Offentlige repoer hentes automatisk fra GitHub.
+          </p>
+          <div class="repo-grid" id="repo-grid" aria-live="polite">
+            <div class="repo-loading" data-nb="Henter repoer …" data-en="Loading repositories …">Henter repoer …</div>
+          </div>
+          <a class="more-link github-profile-link" href="https://github.com/ottolillebo" data-nb="GitHub-profil →" data-en="GitHub profile →">GitHub-profil →</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="kontakt">
+      <div>
+        <strong>Otto Sevaldson Lillebø</strong>
+        <span data-nb="Forsker ved NIFU" data-en="Researcher at NIFU">Forsker ved NIFU</span>
+      </div>
+      <div class="footer-links">
         <a href="mailto:otto.lillebo@nifu.no">otto.lillebo@nifu.no</a>
-        <p>© <span id="year">2026</span> Otto Sevaldson Lillebø</p>
-      </footer>
-    </div>
+        <span>© <span id="year">2026</span></span>
+      </div>
+    </footer>
 
     <script src="script.js" defer></script>
   </body>
